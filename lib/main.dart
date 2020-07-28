@@ -15,9 +15,16 @@ class myApp extends StatelessWidget {
           child: Column(
             children: <Widget>[
               CircleAvatar(
-                radius: 100,
+                radius: 60,
                 backgroundImage: AssetImage('images/upload.jpg'),
               ),
+              Text(
+                'Muhammad Hamza',
+                style: TextStyle(
+                    fontSize: 30,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.white),
+              )
             ],
           ),
         ),
