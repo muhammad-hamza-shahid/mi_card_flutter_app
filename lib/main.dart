@@ -36,30 +36,22 @@ class myApp extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                       color: Colors.white),
                 ),
-                Container(
-                  color: Colors.white,
-                  padding: EdgeInsets.all(10),
-                  margin: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
-                  child: Row(
-                    children: <Widget>[
-                      Icon(
+                Card(
+                    color: Colors.white,
+                    margin: EdgeInsets.symmetric(vertical: 10, horizontal: 40),
+                    child: ListTile(
+                      leading: Icon(
                         Icons.phone,
                         color: Colors.teal.shade700,
                       ),
-                      SizedBox(
-                        height: 0,
-                        width: 10,
-                      ),
-                      Text(
+                      title: Text(
                         '+92343 8559089',
                         style: TextStyle(
                             fontSize: 22,
                             fontFamily: 'SourceSan',
                             color: Colors.teal.shade900),
-                      )
-                    ],
-                  ),
-                ),
+                      ),
+                    )),
                 Container(
                   color: Colors.white,
                   padding: EdgeInsets.all(10),
